@@ -22,4 +22,9 @@ public class FizzBuzzTest {
     public void testNumberFive() {
         assertEquals("Buzz", FizzBuzz.getResult(5));
     }
+
+    @Test
+    public void testNumberSix() {
+        assertEquals("Fizz", FizzBuzz.getResult(6));
+    }
 }
