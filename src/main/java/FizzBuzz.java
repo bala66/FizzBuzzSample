@@ -1,5 +1,8 @@
 public class FizzBuzz {
-    public static int getResult(int number) {
-        return number;
+    public static String getResult(int number) {
+        if (number == 3)
+            return "Fizz";
+
+        return String.valueOf(number);
     }
 }
