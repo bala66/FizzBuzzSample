@@ -5,7 +5,7 @@ public class FizzBuzzTest {
 
     @Test
     public void testNumberOne(){
-        assertEquals("1",FizzBuzz.getResult(1));
+        assertEquals("1" ,FizzBuzz.getResult(1));
     }
 
     @Test
