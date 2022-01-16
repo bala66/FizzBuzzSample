@@ -6,10 +6,14 @@ public class FizzBuzz {
     public static String getResult(int number) {
         if (isFizz(number))
             return FIZZ;
-        else if (number % 5 == 0)
+        else if (isBuzz(number))
             return BUZZ;
 
         return String.valueOf(number);
+    }
+
+    private static boolean isBuzz(int number) {
+        return number % 5 == 0;
     }
 
     private static boolean isFizz(int number) {
