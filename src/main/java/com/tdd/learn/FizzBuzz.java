@@ -11,7 +11,7 @@ class FizzBuzz {
     public static String getResult(int number) {
         if (isFizzBuzz(number))
             return FIZZ_BUZZ;
-        if (isFizz(number))
+        else if (isFizz(number))
             return FIZZ;
         else if (isBuzz(number))
             return BUZZ;
