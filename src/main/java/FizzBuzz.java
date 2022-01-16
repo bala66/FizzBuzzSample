@@ -2,10 +2,11 @@ public class FizzBuzz {
 
     public static final String FIZZ = "Fizz";
     public static final String BUZZ = "Buzz";
+    public static final String FIZZ_BUZZ = "FizzBuzz";
 
     public static String getResult(int number) {
         if(number == 15)
-            return "FizzBuzz";
+            return FIZZ_BUZZ;
         if (isFizz(number))
             return FIZZ;
         else if (isBuzz(number))
