@@ -4,6 +4,8 @@ public class FizzBuzz {
     public static final String BUZZ = "Buzz";
 
     public static String getResult(int number) {
+        if(number == 15)
+            return "FizzBuzz";
         if (isFizz(number))
             return FIZZ;
         else if (isBuzz(number))

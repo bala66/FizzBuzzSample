@@ -7,6 +7,7 @@ public class FizzBuzzTest {
 
     public static final String BUZZ = "Buzz";
     public static final String FIZZ = "Fizz";
+    public static final String FIZZ_BUZZ = "FizzBuzz";
 
     @Test
     void testNumberOne() {
@@ -38,4 +39,8 @@ public class FizzBuzzTest {
         assertEquals(BUZZ, FizzBuzz.getResult(10));
     }
 
+    @Test
+    void testNumberFifteen() {
+        assertEquals(FIZZ_BUZZ, FizzBuzz.getResult(15));
+    }
 }
