@@ -6,7 +6,7 @@ public class FizzBuzz {
     public static String getResult(int number) {
         if (isFizz(number))
             return FIZZ;
-        else if (number == 5)
+        else if (number == 5 || number == 10)
             return BUZZ;
 
         return String.valueOf(number);
