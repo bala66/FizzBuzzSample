@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class FizzBuzzTest {
 
@@ -8,32 +9,32 @@ public class FizzBuzzTest {
     public static final String FIZZ = "Fizz";
 
     @Test
-    public void testNumberOne() {
+    void testNumberOne() {
         assertEquals("1", FizzBuzz.getResult(1));
     }
 
     @Test
-    public void testNumberTwo() {
+    void testNumberTwo() {
         assertEquals("2", FizzBuzz.getResult(2));
     }
 
     @Test
-    public void testNumberThree() {
+    void testNumberThree() {
         assertEquals(FIZZ, FizzBuzz.getResult(3));
     }
 
     @Test
-    public void testNumberFive() {
+    void testNumberFive() {
         assertEquals(BUZZ, FizzBuzz.getResult(5));
     }
 
     @Test
-    public void testNumberSix() {
+    void testNumberSix() {
         assertEquals(FIZZ, FizzBuzz.getResult(6));
     }
 
     @Test
-    public void testNumberTen() {
+    void testNumberTen() {
         assertEquals(BUZZ, FizzBuzz.getResult(10));
     }
 
