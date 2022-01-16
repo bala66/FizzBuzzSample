@@ -1,11 +1,11 @@
-public class FizzBuzz {
+class FizzBuzz {
 
     public static final String FIZZ = "Fizz";
     public static final String BUZZ = "Buzz";
     public static final String FIZZ_BUZZ = "FizzBuzz";
 
     public static String getResult(int number) {
-        if(isFizzBuzz(number))
+        if (isFizzBuzz(number))
             return FIZZ_BUZZ;
         if (isFizz(number))
             return FIZZ;

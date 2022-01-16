@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class FizzBuzzTest {
+class FizzBuzzTest {
 
     public static final String BUZZ = "Buzz";
     public static final String FIZZ = "Fizz";
