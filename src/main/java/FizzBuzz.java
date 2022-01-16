@@ -5,7 +5,7 @@ public class FizzBuzz {
     public static final String FIZZ_BUZZ = "FizzBuzz";
 
     public static String getResult(int number) {
-        if(number % 3 == 0 && number % 5 == 0)
+        if(isFizzBuzz(number))
             return FIZZ_BUZZ;
         if (isFizz(number))
             return FIZZ;
@@ -13,6 +13,10 @@ public class FizzBuzz {
             return BUZZ;
 
         return String.valueOf(number);
+    }
+
+    private static boolean isFizzBuzz(int number) {
+        return number % 3 == 0 && number % 5 == 0;
     }
 
     private static boolean isBuzz(int number) {
