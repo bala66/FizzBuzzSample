@@ -4,11 +4,13 @@ public class FizzBuzz {
     public static final String BUZZ = "Buzz";
 
     public static String getResult(int number) {
+        String result = "";
         if (number % 3 == 0)
-            return FIZZ;
-        else if (number % 5 == 0)
-            return BUZZ;
+            result+= FIZZ;
 
-        return String.valueOf(number);
+         if (number % 5 == 0)
+            result+= BUZZ;
+
+        return result.isEmpty() ? "" + String.valueOf(number) : result;
     }
 }
