@@ -1,3 +1,5 @@
+package com.tdd.learn;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -7,7 +9,7 @@ class FizzBuzzTest {
 
     public static final String BUZZ = "Buzz";
     public static final String FIZZ = "Fizz";
-    public static final String FIZZ_BUZZ = "FizzBuzz";
+    public static final String FIZZ_BUZZ = "com.tdd.learn.FizzBuzz";
 
     @Test
     void testNumberOne() {
