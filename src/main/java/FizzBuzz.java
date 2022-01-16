@@ -16,7 +16,7 @@ public class FizzBuzz {
     }
 
     private static boolean isFizzBuzz(int number) {
-        return number % 3 == 0 && number % 5 == 0;
+        return isFizz(number) && isBuzz(number);
     }
 
     private static boolean isBuzz(int number) {
