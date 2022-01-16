@@ -31,4 +31,10 @@ public class FizzBuzzTest {
     public void testNumberSix() {
         assertEquals(FIZZ, FizzBuzz.getResult(6));
     }
+
+    @Test
+    public void testNumberTen() {
+        assertEquals(BUZZ, FizzBuzz.getResult(10));
+    }
+
 }
